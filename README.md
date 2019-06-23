@@ -1,4 +1,4 @@
-# Community Health Files for delineate.io
+# Community Health Files
 
 ![delineate.io](assets/delineateio.jpg)
 
