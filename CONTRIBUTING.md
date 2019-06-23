@@ -1,6 +1,6 @@
-# Contributing to Capco Digital
+# Contributing to delineate.io
 
-![Capco](assets/capco_logo.jpg)
+![delineateio](assets/delineateio.jpg)
 
 ## Purpose
 
@@ -18,8 +18,7 @@ We use github to host code, to track issues and feature requests, as well as acc
 
 ## We use Github Flow 
 
-We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), All Code Changes Happen Through Pull Requests
-Pull requests are the best way to propose changes to the codebase. 
+We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), all code changes happen through Pull Requests (PR) - PR are the best way to propose changes to the codebase! 
 
 We actively welcome your pull requests:
 
