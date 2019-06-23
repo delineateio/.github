@@ -1,4 +1,4 @@
-# Contributing to delineate.io
+# Contributing
 
 ![delineateio](assets/delineateio.jpg)
 
