@@ -1,11 +1,5 @@
 # Code of Conduct
 
-<p align="center">
-  <img alt="delineate.io" src="https://github.com/delineateio/.github/blob/master/assets/logo.png?raw=true" height="75" />
-  <h2 align="center">delineate.io</h2>
-  <p align="center">portray or describe (something) precisely.</p>
-</p>
-
 ## Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
