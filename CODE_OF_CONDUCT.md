@@ -1,6 +1,6 @@
 # Code of Conduct
 
-![delineate.io](assets/delineateio.jpg)
+![delineate.io](assets/logo.jpg)
 
 ## Our Pledge
 
