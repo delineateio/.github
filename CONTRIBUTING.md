@@ -14,9 +14,9 @@ We love your input! We want to make contributing to these projects as easy and t
 
 We use github to host code, to track issues and feature requests, as well as accept pull requests.
 
-## We use Github Flow 
+## We use Github Flow
 
-We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), all code changes happen through Pull Requests (PR) - PR are the best way to propose changes to the codebase! 
+We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), all code changes happen through Pull Requests (PR) - PR are the best way to propose changes to the codebase!
 
 We actively welcome your pull requests:
 
@@ -28,9 +28,11 @@ We actively welcome your pull requests:
 6. Issue that pull request!
 
 ## MIT Software License
+
 In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
 
 ## Reporting Bugs via Issues
+
 We use GitHub issues to track public bugs.  It's that easy!
 
 ## Write Bug reports With Detail, Background and Sample Code
@@ -48,7 +50,9 @@ We use GitHub issues to track public bugs.  It's that easy!
 People *love* thorough bug reports. I'm not even kidding.
 
 ## License
+
 By contributing, you agree that your contributions will be licensed under its MIT License.
 
 ## References
+
 This document was adapted from the open-source contribution guidelines for [Facebook's Draft](https://github.com/facebook/draft-js/blob/a9316a723f9e918afde44dea68b5f9f39b7d9b00/CONTRIBUTING.md)
