@@ -5,6 +5,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Purpose
 
 This is the delineate.io organization `.github` repository. It provides:
+
 - **Default community health files** applied automatically to all org repos (CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md, LICENSE, PULL_REQUEST_TEMPLATE.md, issue templates)
 - **Shared/reusable GitHub Actions workflows** (e.g., `reusable_markdown_lint.yml`, `reusable_secret_scan.yml`)
 - **Organization-wide automation** (label sync, release management, security scanning, bot auto-approval)
@@ -27,6 +28,8 @@ pre-commit run markdownlint --all-files
 ### Markdown Linting
 
 Rules configured in `.markdownlint.json`. Disabled: MD004, MD013, MD033, MD041.
+
+All markdown files should be linted and fixed
 
 ## Workflow Architecture
 
@@ -58,6 +61,6 @@ Rules configured in `.markdownlint.json`. Disabled: MD004, MD013, MD033, MD041.
 - **Label definitions**: Canonical set maintained in `.github/labels.yml`
 - **Dependabot**: Configured for weekly GitHub Actions updates, max 5 open PRs
 
-## Pushes
+## Commits and Pushes
 
-All pushes should be rebased before being pushed to ensure they are signed.
+All commits should be signed before being pushed.  All pushes should be rebased before being pushed
