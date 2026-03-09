@@ -62,4 +62,3 @@ All workflows use **StepSecurity runner hardening** (`step-security/harden-runne
 ## Pushes
 
 All pushes should be rebased before besing pushed to ensure they are signed
-
