@@ -18,6 +18,6 @@ jobs:
           fetch-depth: 0
 
       - name: Check DCO
-        uses: christophebedard/dco-check@v0.3.0
+        uses: christophebedard/dco-check@547f0d10eb3d42a8326ed99b12147fdc20e4a501 # v0.3.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
