@@ -2,6 +2,9 @@ name: Auto approve
 
 on: pull_request
 
+permissions:
+  contents: read
+
 jobs:
   auto-approve:
     runs-on: ubuntu-latest
@@ -9,6 +12,11 @@ jobs:
       pull-requests: write
     if: contains(fromJson('["dependabot[bot]", "pre-commit-ci[bot]", "jf-delineate"]'), github.actor)
     steps:
-      - uses: hmarr/auto-approve-action@v3
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@58077d3c7e43986b6b15fba718e8ea69e387dfcc # v2.15.1
+        with:
+          egress-policy: audit
+
+      - uses: hmarr/auto-approve-action@7d0ab8fdbb906da8a6297d373561d5ccb137d98f # v3
         with:
           review-message: "Auto approved automated PR"
