@@ -1,0 +1,26 @@
+name: "Reusable: Markdown Lint"
+on:
+  workflow_call:
+    inputs:
+      config-path:
+        description: Path to markdownlint config file
+        type: string
+        default: .markdownlint.json
+        required: false
+
+jobs:
+  markdown-lint:
+    name: Markdown lint
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Lint markdown
+        uses: DavidAnson/markdownlint-cli2-action@v17
+        with:
+          config: ${{ inputs.config-path }}
+          globs: "**/*.md"
