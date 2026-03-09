@@ -7,6 +7,9 @@ on:
       - .github/labels.yml
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   label-sync:
     name: Sync labels across org
@@ -15,11 +18,16 @@ jobs:
       contents: read
 
     steps:
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@58077d3c7e43986b6b15fba718e8ea69e387dfcc # v2.15.1
+        with:
+          egress-policy: audit
+
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
 
       - name: Sync labels
-        uses: EndBug/label-sync@v2
+        uses: EndBug/label-sync@52074158190acb45f3077f9099fea818aa43f97a # v2.3.3
         with:
           config-file: .github/labels.yml
           delete-other-labels: false
